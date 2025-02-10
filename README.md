@@ -12,8 +12,6 @@ This project explores improving 3D content generation by integrating a CLIP-guid
 - **Texture Enhancement via UV-Space Refinement**
 - **Efficient Mesh Extraction & Optimization**
 
-## Installation
-
 ### Prerequisites
 
 Ensure you have the following dependencies installed:
@@ -23,12 +21,6 @@ Ensure you have the following dependencies installed:
 - CLIP (OpenAI)
 - Gaussian Splatting Renderer
 - NVIDIA GPU with CUDA support (Recommended)
-
-```bash
-pip install torch torchvision
-pip install clip-by-openai
-pip install numpy matplotlib
-```
 
 ## Usage
 
@@ -59,19 +51,6 @@ The enhanced method showed some improvements in target feature refinement but fa
 - **Feature-Specific Loss Functions** for targeted improvements
 - **Alternative Classifier Architectures**
 - **Real-Time Processing Enhancements**
-
-## Citation
-
-If you use this work, please cite:
-
-```bibtex
-@article{zhang2025enhanced3d,
-  author = {Hongyang Zhang},
-  title = {Enhanced 3D Content Generation Using Gaussian Splatting and CLIP-Guided Refinement},
-  year = {2025},
-  institution = {The University of Auckland}
-}
-```
 
 ## Contact
 
